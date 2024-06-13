@@ -1,0 +1,348 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Manrope';
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+}
+
+.conteiner_Hone {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 33px 125px;
+    background-color: #FFFFFF;
+}
+
+.Hone_title {
+    width: 956px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+}
+
+.Hone_image {
+    margin-top: 30px;
+    height: 500px;
+    width: 1150px;
+    position: relative;
+    background-image: url("../resurces/Rectangle\ 1.png");
+}
+
+.Hone_text {
+    width: 430px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Hone_title_us {
+    margin-top: 150px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    color: rgba(18, 18, 18, 1);
+}
+
+.Hone_text_description {
+    margin-top: 32px;
+    margin-bottom: 43px;
+    width: 1048px;
+    font-size: 45px;
+    line-height: 61.47px;
+    letter-spacing: -0.03em;
+}
+
+.btn_Hone_link {
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    padding: 20px 40px 20px 40px;
+    border-radius: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgba(173, 24, 24, 1);
+}
+
+.conteiner_Hone_project {
+    margin-top: 32px;
+    margin-bottom: 82px;
+}
+
+.title_project {
+    margin-top: 170px;
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.adress {
+    margin-top: 18px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    box-sizing: border-box;
+}
+
+.link_conteiner_descriprion {
+    color: rgba(173, 24, 24, 1);
+    font-size: 20px;
+    line-height: 41.32px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+}
+
+.link_Hone_allproject {
+    margin-top: 83px;
+    height: 153px;
+    padding-top: 56px;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border: 1px solid  rgba(173, 24, 24, 1) ;
+    border-radius: 5px;
+    color: rgba(173, 24, 24, 1);
+}
+
+.link_Hone_allproject:hover {
+    color: #FFFFFF;
+    background-color: rgba(173, 24, 24, 1);
+}
+
+.frame {
+    margin-top: 117px;
+    width: 1400px;
+    height: 1844px;
+    background-color: rgba(18, 18, 18, 1);
+    background-size: 100%;
+}
+
+.frame_title {
+    padding-top: 151px;
+    margin-left: 125px;
+    margin-bottom: 34px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+
+.frame_conteiner {
+    margin-bottom: 59px;
+    margin-left: 125px;
+}
+
+.frame_text {
+    margin-top: 15px;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.frame_conteiner:nth-last-child(1) {
+    margin-bottom: 150px;
+}
+
+.frame__image {
+    margin-top: -1px;
+    width: 1400px;
+    height: 717px;
+    background-image: url("../resurces/Service\ 5+.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+}
+
+.frame_image_text {
+    position: absolute;
+    width: 450px;
+    font-size: 29px;
+    line-height: 40px;
+    left: 127px;
+    bottom: 60px;
+    color: rgba(255, 255, 255, 1);
+    word-spacing: -46%;
+}
+
+.logo_selection {
+    margin-bottom: 70px;
+    width: 1151.35px;
+    height: 25.18px;
+}
+
+.conteiner_logo {
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.conteiner_logo {
+    display: inline-block;
+}
+
+.logo {
+    display: block;
+    width: 126.89px;
+    height: 21.42px;
+}
+
+.conteiner_link {
+    display: inline-block;
+    margin-left: 558px;
+}
+
+.link_logo {
+    margin-right: 72px;
+    width: 52px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(18, 18, 18, 1);
+}
+
+.link_logo:hover {
+    color: rgb(139, 138, 138);
+    text-decoration: underline;
+}
+
+.contacts {
+    width: 473px;
+    height: 217px;
+    display: block;
+    position: relative;
+    left: 124px;
+    top: 162px;
+}
+
+.contact {
+    width: 1400px;
+    height: 553px;
+}
+
+.link_logo:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.title_contacts {
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.title_contacts:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url('/module1/resurces/ic_phone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.number {
+    margin-bottom: 30px;
+    width: 472px;
+    height: 60px;
+    font-size: 61px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: -0.03em;
+}
+
+.number_decor {
+    text-decoration: none;
+    color: rgba(18, 18, 18, 1);
+}
+
+.number_decor:hover {
+    text-decoration: underline;
+    color: rgb(139, 138, 138);
+}
+
+.mail {
+    margin-bottom: 160px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+}
+
+.mail_decor {
+    text-decoration: none;
+    color: rgba(18, 18, 18, 1);
+}
+
+.mail_decor:hover {
+    text-decoration: underline;
+    color: rgb(139, 138, 138);
+}
+
+.finish {
+    margin: 0 auto;
+    width: 100%;
+    height: 229px;
+    position: relative;
+    background-color: rgba(18, 18, 18, 1);
+
+}
+
+.finish-conteiner {
+    margin: 0 auto;
+    width: 508px;
+    position: absolute;
+    top: 65px;
+    left: 440px;
+    text-align: center;
+}
+
+.finish-link {
+    margin-right: 55px;
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(255, 255, 255, 1);
+}
+
+.finish-link:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.finish-link:hover {
+    color: rgb(139, 138, 138);
+    text-decoration: underline;
+}
+
+.Metrika-finish {
+    position: absolute;
+    top: 176px;
+    left: 504px;
+    width: 400px;
+    height: 30px;
+    font-size: 19px;
+}
+
+.Metrika {
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
