@@ -1,22 +1,48 @@
 html {
     scroll-behavior: smooth;
-
 }
 
-body {
+body, header, main, footer {
     font-family: 'Manrope';
     width: 100%;
     background: rgba(255, 255, 255, 1);
 }
 
-.conteiner_Hone {
-    margin: 0 auto;
+section, .frame__image, .finish, .contacts, .logo_selection {
+    margin: 0 auto 107px;
     width: 1400px;
     padding: 33px 125px;
-    background-color: #FFFFFF;
 }
 
-.Hone_title {
+section:first-child,section:nth-last-child(1), .services-conteiner, .finish, .logo_selection {
+    margin-bottom: 0;
+}
+
+.link_logo {
+    margin-right: 72px;
+    width: 52px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(18, 18, 18, 1);
+}
+
+.link_logo:first-child {
+    margin-right: 630px;
+}
+
+.link_logo:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.link_logo:hover {
+    color: rgb(139, 138, 138);
+    text-decoration: underline;
+}
+
+.text-title {
     width: 956px;
     font-size: 60px;
     font-weight: 400;
@@ -24,15 +50,15 @@ body {
     letter-spacing: -0.03em;
 }
 
-.Hone_image {
+.title-image {
     margin-top: 30px;
     height: 500px;
     width: 1150px;
     position: relative;
-    background-image: url("../resurces/Rectangle\ 1.png");
+    background-image: url(/module1/resurces/Rectangle\ 1.png);
 }
 
-.Hone_text {
+.text-image {
     width: 430px;
     position: absolute;
     bottom: 40px;
@@ -43,8 +69,8 @@ body {
     color: rgba(255, 255, 255, 1);
 }
 
-.Hone_title_us {
-    margin-top: 150px;
+.about__us {
+    margin-top: 83px;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.59px;
@@ -52,7 +78,7 @@ body {
     color: rgba(18, 18, 18, 1);
 }
 
-.Hone_text_description {
+.text_description {
     margin-top: 32px;
     margin-bottom: 43px;
     width: 1048px;
@@ -61,7 +87,7 @@ body {
     letter-spacing: -0.03em;
 }
 
-.btn_Hone_link {
+.btn__link {
     font-size: 20px;
     line-height: 27.32px;
     letter-spacing: -0.03em;
@@ -72,18 +98,17 @@ body {
     background-color: rgba(173, 24, 24, 1);
 }
 
-.conteiner_Hone_project {
-    margin-top: 32px;
-    margin-bottom: 82px;
-}
-
-.title_project {
-    margin-top: 170px;
+.title-project {
     font-size: 18px;
     font-weight: 350;
     line-height: 24.59px;
     letter-spacing: -0.03em;
     text-transform: uppercase;
+}
+
+.project {
+    margin-top: 32px;
+    margin-bottom: 82px;
 }
 
 .adress {
@@ -94,7 +119,7 @@ body {
     box-sizing: border-box;
 }
 
-.link_conteiner_descriprion {
+.link_descriprion {
     color: rgba(173, 24, 24, 1);
     font-size: 20px;
     line-height: 41.32px;
@@ -102,7 +127,7 @@ body {
     text-decoration: none;
 }
 
-.link_Hone_allproject {
+.link_allproject {
     margin-top: 83px;
     height: 153px;
     padding-top: 56px;
@@ -117,22 +142,21 @@ body {
     color: rgba(173, 24, 24, 1);
 }
 
-.link_Hone_allproject:hover {
+.link_allproject:hover {
     color: #FFFFFF;
     background-color: rgba(173, 24, 24, 1);
 }
 
-.frame {
-    margin-top: 117px;
+.services-conteiner {
     width: 1400px;
     height: 1844px;
     background-color: rgba(18, 18, 18, 1);
     background-size: 100%;
+    color: rgba(255, 255, 255, 1);
 }
 
-.frame_title {
-    padding-top: 151px;
-    margin-left: 125px;
+.servicec-title {
+    padding-top: 125px;
     margin-bottom: 34px;
     font-size: 18px;
     font-weight: 400;
@@ -142,27 +166,19 @@ body {
     color: rgba(255, 255, 255, 1);
 }
 
-.frame_conteiner {
+.service-list {
     margin-bottom: 59px;
-    margin-left: 125px;
 }
 
-.frame_text {
+.list_text {
     margin-top: 15px;
     font-size: 30px;
     line-height: 40px;
     letter-spacing: -0.03em;
     text-align: left;
-    color: rgba(255, 255, 255, 1);
-}
-
-.frame_conteiner:nth-last-child(1) {
-    margin-bottom: 150px;
 }
 
 .frame__image {
-    margin-top: -1px;
-    width: 1400px;
     height: 717px;
     background-image: url("../resurces/Service\ 5+.png");
     background-repeat: no-repeat;
@@ -182,64 +198,11 @@ body {
     word-spacing: -46%;
 }
 
-.logo_selection {
-    margin-bottom: 70px;
-    width: 1151.35px;
-    height: 25.18px;
-}
-
-.conteiner_logo {
-    margin: 0 auto;
-    cursor: pointer;
-}
-
-.conteiner_logo {
-    display: inline-block;
-}
-
-.logo {
-    display: block;
-    width: 126.89px;
-    height: 21.42px;
-}
-
-.conteiner_link {
-    display: inline-block;
-    margin-left: 558px;
-}
-
-.link_logo {
-    margin-right: 72px;
-    width: 52px;
-    font-size: 18px;
-    line-height: 24.59px;
-    letter-spacing: -0.03em;
-    display: inline-block;
-    text-decoration: none;
-    color: rgba(18, 18, 18, 1);
-}
-
-.link_logo:hover {
-    color: rgb(139, 138, 138);
-    text-decoration: underline;
-}
-
 .contacts {
-    width: 473px;
-    height: 217px;
+    height: 453px;
     display: block;
     position: relative;
-    left: 124px;
-    top: 162px;
-}
-
-.contact {
-    width: 1400px;
-    height: 553px;
-}
-
-.link_logo:nth-last-child(1) {
-    margin-right: 0;
+    top: 134px;
 }
 
 .title_contacts {
@@ -270,17 +233,6 @@ body {
     line-height: 62px;
     letter-spacing: -0.03em;
 }
-
-.number_decor {
-    text-decoration: none;
-    color: rgba(18, 18, 18, 1);
-}
-
-.number_decor:hover {
-    text-decoration: underline;
-    color: rgb(139, 138, 138);
-}
-
 .mail {
     margin-bottom: 160px;
     font-size: 60px;
@@ -289,27 +241,23 @@ body {
     letter-spacing: -0.03em;
 }
 
-.mail_decor {
+.number_decor, .mail_decor {
     text-decoration: none;
     color: rgba(18, 18, 18, 1);
 }
 
-.mail_decor:hover {
+.number_decor:hover, .mail_decor:hover {
     text-decoration: underline;
     color: rgb(139, 138, 138);
 }
 
 .finish {
-    margin: 0 auto;
-    width: 100%;
     height: 229px;
     position: relative;
     background-color: rgba(18, 18, 18, 1);
-
 }
 
 .finish-conteiner {
-    margin: 0 auto;
     width: 508px;
     position: absolute;
     top: 65px;
