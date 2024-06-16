@@ -55,7 +55,7 @@ section:first-child,section:nth-last-child(1), .services-conteiner, .finish, .lo
     height: 500px;
     width: 1150px;
     position: relative;
-    background-image: url(/module1/resurces/Rectangle\ 1.png);
+    background-image: url("../resurces/Rectangle\ 1.png");
 }
 
 .text-image {
