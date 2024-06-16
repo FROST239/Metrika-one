@@ -218,7 +218,7 @@ section:first-child,section:nth-last-child(1), .services-conteiner, .finish, .lo
     width: 24px;
     height: 24px;
     display: block;
-    background-image: url('/module1/resurces/ic_phone.png');
+    background-image: url("../resurces/ic_phone.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
