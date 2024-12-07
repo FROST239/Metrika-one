@@ -1,0 +1,122 @@
+.title-project {
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.info_projet {
+    margin: 0 auto;
+    width: 100%;
+    padding: 33px 125px;
+}
+
+.project {
+    margin-top: 32px;
+    margin-bottom: 82px;
+}
+
+.adress {
+    margin-top: 18px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    box-sizing: border-box;
+}
+
+.link_descriprion {
+    color: rgba(173, 24, 24, 1);
+    font-size: 20px;
+    line-height: 41.32px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+}
+
+.link_allproject {
+    margin: 0 0 117px 0;
+    height: 153px;
+    padding-top: 56px;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border: 1px solid  rgba(173, 24, 24, 1) ;
+    border-radius: 5px;
+    color: rgba(173, 24, 24, 1);
+}
+
+.link_allproject:hover {
+    color: #FFFFFF;
+    background-color: rgba(173, 24, 24, 1);
+}
+
+@media (max-width: 1199px) {
+    .titile_project {
+        width: 100%;
+    }
+
+    .info_projet{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 17px;
+    }
+    
+    .project {
+        height: 100%;
+        margin-bottom: 80px;
+    }
+
+    .list-project {
+        width: 100%;
+        padding-bottom: 102px;
+    }
+
+    .img-project{
+        max-width: 100%;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+    }
+
+    .adress {
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 34.15px;
+    }
+
+    .link_descriprion {
+        font-size: 20px;
+        line-height: 27.32px;
+    }
+
+    .link_allproject {
+        font-size: 30px;
+        line-height: 40.95px;
+    }
+}
+
+@media (max-width: 767px) {
+    .title-project {
+        font-size: 14px;
+        line-height: 19.12px;
+    }
+
+    .adress {
+        font-size: 18px;
+        line-height: 24.59px;
+    }
+
+    .link_descriprion {
+        font-size: 16px;
+        line-height: 21.86px;
+    }
+
+    .link_allproject {
+        width: 100%;
+        font-size: 22px;
+        line-height: 30.05px;
+    }
+}

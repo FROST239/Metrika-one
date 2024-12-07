@@ -1,0 +1,120 @@
+.reviews {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.review-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 150px 125px 157px 125px;
+}
+
+.reviews-title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.reviews-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 51px;
+}
+
+.col{
+    width: calc(50% - 10px);
+}
+
+.col:last-child:nth-child(2n + 1) {
+    width: 75%;
+}
+
+.reviews-project {
+    font-size: 45px;
+    line-height: 61.47px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.review-text {
+    height: 100%;
+    font-size: 22px;
+    line-height: 30.05px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+@media (max-width: 1199px) {
+    .review-wrapper {
+        padding: 120px 16px 117px 16px;
+    }
+
+    .reviews-title {
+        font-size: 18px;
+        line-height: 24.59px;
+        letter-spacing: -0.03em;
+        text-align: left;
+    }
+
+    .reviews-project {
+        font-size: 35px;
+        line-height: 47.81px;
+        letter-spacing: -0.03em;
+        text-align: left;
+    }
+
+    .review-text {
+        font-size: 20px;
+        line-height: 27.32px;
+        letter-spacing: -0.03em;
+        text-align: left;
+    }
+
+    .col:last-child:nth-child(2n + 1) {
+        width: 75%;
+    }
+}
+
+@media (max-width: 767px) {
+    .review-wrapper {
+        width: 100%;
+        padding: 80px 13px 80px 13px;
+    }
+
+    .reviews-title {
+        font-size: 14px;
+        line-height: 19.12px;
+        letter-spacing: -0.03em;
+        text-align: left;
+    }
+
+    .reviews-project {
+        font-size: 25px;
+        line-height: 34.15px;
+        letter-spacing: -0.03em;
+        text-align: left;
+    }
+
+    .review-text {
+        font-size: 16px;
+        line-height: 21.86px;
+        letter-spacing: -0.03em;
+        text-align: left;
+    }
+
+    .reviews-row {
+        gap: 80px;
+        flex-wrap: wrap;
+    }
+
+    .col {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .col:last-child:nth-child(2n + 1) {
+        width: 100%;
+    }
+}

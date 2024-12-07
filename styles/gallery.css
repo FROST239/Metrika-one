@@ -1,0 +1,163 @@
+.gallery-section {
+    position: relative;
+}
+
+.gallery__container-wrapper {
+    position: absolute;
+    top: 64px;
+    left: 124px;
+    z-index: 100;
+}
+
+.gallery-wrapper-title {
+    font-size: 22px;
+    line-height: 30.05px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+
+.gallery__slides-wrapper {
+    height: 717px;
+    position: relative;
+}
+
+.gallery__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.gallery__slide_active {
+    opacity: 1;
+    transition: 1.4s cubic-bezier(.99,.36,.08,.59);
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery_container {
+    width: 100%;
+}
+
+.img__gallery-text {
+    position: absolute;
+    top: 79%;
+    left: 7%;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.gallery__controls-wrapper {
+    position: absolute;
+    top: 73%;
+    left: 7%;
+}
+
+.gallery__controls {
+    display: flex;
+    gap: 24px;
+}
+
+.gallery__control-prev {
+    background-image: url(/Metrika-one/resurces/Prev.png);
+    background-color: unset;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 33px;
+    border: unset;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+
+.gallery__control-next {
+    background-image: url(/Metrika-one/resurces/Next.png);
+    background-color: unset;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 19px;
+    height: 33px;
+    border: unset;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+
+.gallery__control-prev:hover, .gallery__control-next:hover {
+    opacity: 0.5;
+
+}
+
+@media (max-width: 1199px) {
+    .gallery-wrapper-title {
+        font-size: 20px;
+        line-height: 27.32px;
+        letter-spacing: -0.03em;
+    }
+
+    .gallery__container-wrapper {
+        top: 80px;
+        left: 50px;
+    }
+
+    .gallery__slides-wrapper {
+        height: 536px;
+    }
+
+    .img__gallery-text {
+        font-size: 25px;
+        line-height: 34.15px;
+        letter-spacing: -0.03em;
+    }
+}
+
+@media (max-width: 767px) {
+    .gallery-wrapper-title {
+        font-size: 14px;
+        line-height: 19.12px;
+        letter-spacing: -0.03em;
+    }
+
+    .gallery__container-wrapper {
+        top: 60px;
+        left: 12px;
+    }
+
+    .gallery__slides-wrapper {
+        height: 408px;
+    }
+
+    .img__gallery-text {
+        font-size: 19.01px;
+        line-height: 25.97px;
+        letter-spacing: -0.03em;
+    }
+
+    .gallery__controls-wrapper {
+        top: 50%;
+        left: 0;
+        width: 100%;
+    }
+
+    .gallery__controls {
+        justify-content: space-between;
+        padding: 0 15px 0 15px;
+    }
+
+    .gallery__control-prev, .gallery__control-next {
+        width: 15px;
+        height: 25px;
+    }
+}
+
+

@@ -1,0 +1,115 @@
+.services-conteiner {
+    width: 100%;
+    height: 1602px;
+    padding: 0 125px 0 125px;
+    background-color: rgba(18, 18, 18, 1);
+    background-size: 100%;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.servicec-title {
+    margin-bottom: 34px;
+    padding-top: 152px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;  
+    color: rgba(255, 255, 255, 1);
+}
+
+.service-box-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 86px;
+}
+
+.service-list {
+    width: calc(50% - 5.5px);
+    position: relative;
+}
+
+.service-image {
+    width: 100%;
+    background-size: cover;
+}
+
+.slt {
+    height: 41px;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -3%;
+}
+
+.list_text {
+    height: 40px;
+    padding: 5px 22px 5px 20px;
+    text-align: center;
+    position: absolute;
+    left: 30px;
+    top: 31px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    background-color: rgba(173, 24, 24, 1);
+    border-radius: 5px;
+}
+
+.order {
+    margin: 106px 0 0 0;
+    height: 153px;
+    padding-top: 56px;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border: 5px solid  rgba(173, 24, 24, 1) ;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(173, 24, 24, 1);
+}
+
+
+@media (max-width: 1199px) {
+    .services-conteiner {
+        width: 100%;
+        height: 100%;
+        padding: 0 27px 80px 27px;
+    }
+
+    .servicec-title {
+        padding-top: 80px;
+    }
+
+    .service-list {
+        width: calc(50% - 4px);
+    }
+
+    .order {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .services-conteiner {
+        padding: 80px 20px 80px 20px;
+    }
+
+    .servicec-title {
+        padding-top: 0;
+    }
+
+    .service-list {
+        width: 100%;
+    }
+
+    .order {
+        margin-bottom: 80px;
+        width: 100%;
+    }
+
+}
