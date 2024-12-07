@@ -1,100 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-    
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Метрика</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">  
+    <link rel="stylesheet" href="/Metrika-one/styles/reset.css">
+    <link rel="stylesheet" href="/Metrika-one/styles/style.css">
 </head>
-<body>
+<body> 
     <header>
-        
         <div id="Metrik-logo" class="logo_selection">
             <a href="#Metrik-logo" class="link_logo">
-                <img src="resurces/Metrika.png" alt="Логотип">
+                <img src="/Metrika-one/resurces/Metrika.png" alt="Логотип">
             </a>
             <a href="#About_us" class="link_logo">О НАС</a>
             <a href="#Project" class="link_logo">ПРОЕКТЫ</a>
             <a href="#Service" class="link_logo">УСЛУГИ</a>
             <a href="#Address" class="link_logo">КОНТАКТЫ</a>
         </div>
-    </header>
-    <main>
-        <section>
-            <h1 class="text-title">
-                Современные и стильные интерьеры для комфортной жизни
-            </h1>
-            <div class="title-image">
-                <p class="text-image">
-                    Мы - команда квалифицированных дизайнеров и архитекторов,
-                    занимающихся разработкой и реализацией дизайн-проектов
+    </header> 
+    <main> 
+        <section class="title_intro">
+            <div class="container_intro">    
+                <h1 class="text-title">
+                    Современные и стильные интерьеры для комфортной жизни
+                </h1>
+                <div class="title-image">
+                    <p class="text-image">
+                        Мы - команда квалифицированных дизайнеров и архитекторов,
+                        занимающихся разработкой и реализацией дизайн-проектов
+                    </p>
+                </div>
+            </div>    
+        </section>
+        <section class="title_us">
+            <div class="info_us">
+                <h2 id="About_us" class="about__us">
+                    О НАС
+                </h2>
+                <p class="text_description">
+                    Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются
+                    за уютом,
+                    индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть
+                    до каждой
+                    детали — нацелены на результат.
                 </p>
-            </div>
+                <a class="btn__link" href="#Metrik-logo">Посмотреть услуги</a>
+            </div>    
         </section>
-        <section>
-            <h2 id="About_us" class="about__us">
-                О НАС
-            </h2>
-            <p class="text_description">
-                Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются
-                за уютом,
-                индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть
-                до каждой
-                детали — нацелены на результат.
-            </p>
-            <a class="btn__link" href="#Metrik-logo">Посмотреть услуги</a>
-        </section>
-        <section>
-            <h2 id="Project" class="title-project">проекты</h2>
-            <ul>
-                <li class="project">
-                    <img src="resurces/Rectangle 2.png" alt="">
-                    <h3 class="adress">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
-                    <a class="link_descriprion" href="#Metrik-logo">Подробнее →</a>
-                </li>
-                <li class="project">
-                    <img src="resurces/Rectangle 3.jpg" alt="">
-                    <h3 class="adress">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
-                    <a class="link_descriprion" href="#Metrik-logo">Подробнее →</a>
-                </li>
-                <li class="project">
-                    <img src="resurces/Rectangle 4.jpg" alt="">
-                    <h3 class="adress">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
-                    <a class="link_descriprion" href="#Metrik-logo">Подробнее →</a>
-                </li>
-            </ul>
-            <a class="link_allproject" href="#project">Смотреть все проекты</a>
-        </section>
+        <section class="titile_project">
+           <div class="info_projet">
+                <h2 id="Project" class="title-project">проекты</h2>
+                <ul class="list-project">
+                    <li class="project">
+                        <img class="img-project" src="/Metrika-one/resurces/Rectangle 2.png" alt="">
+                        <h3 class="adress">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+                        <a class="link_descriprion" href="#Metrik-logo">Подробнее →</a>
+                    </li>
+                    <li class="project">
+                        <img class="img-project" src="/Metrika-one/resurces/Rectangle 3.jpg" alt="">
+                        <h3 class="adress">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+                        <a class="link_descriprion" href="#Metrik-logo">Подробнее →</a>
+                    </li>
+                    <li class="project">
+                        <img class="img-project" src="/Metrika-one/resurces/Rectangle 4.jpg" alt="">
+                        <h3 class="adress">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+                        <a class="link_descriprion" href="#Metrik-logo">Подробнее →</a>
+                    </li>
+                </ul>
+                <a class="link_allproject" href="#Project">Смотреть все проекты</a>
+            </div>    
+        </section> 
         <section class="services-conteiner">
             <h2 id="Service" class="servicec-title">Услуги</h2>
-            <ul>
+            <ul class="service-box-wrapper">
                 <li class="service-list">
-                    <img src="resurces/Service.png">
-                    <p class="list_text">Планировочное решение — от 2500₽/м²</p>
-                </li class="service-list">
-                <li class="service-list">
-                    <img src="resurces/Service 2.png">
-                    <p class="list_text">Дизайн-проект — от 3000₽/м²</p>
+                    <img class="service-image" src="/Metrika-one/resurces/Rect2.png">
+                    <h3 class="slt">Планировочное решение</h3>
+                    <p class="list_text">от 2500₽/м²</p>
                 </li>
                 <li class="service-list">
-                    <img src="resurces/Service 3.png">
-                    <p class="list_text">Авторский надзор — от 30 000₽ в месяц</p>
+                    <img class="service-image" src="/Metrika-one/resurces/Rect3.png">
+                    <h3 class="slt">Дизайн-проект</h3>
+                    <p class="list_text">от 3000₽/м²</p>
                 </li>
                 <li class="service-list">
-                    <img src="resurces/Service 4.png">
-                    <p class="list_text">Комплектация — 5% от стоимости спецификации</p>
+                    <img class="service-image" src="/Metrika-one/resurces/Rect4.png">
+                    <h3 class="slt">Авторский надзор</h3>
+                    <p class="list_text">от 30 000₽ в месяц</p>
+                </li>
+                <li class="service-list">
+                    <img class="service-image" src="/Metrika-one/resurces/Rect5.png">
+                    <h3 class="slt">Комплектация</h3>
+                    <p class="list_text">5% от стоимости</p>
                 </li>
             </ul>
+            <a class="order" href="#">Заказать услугу</a>
         </section>
-        <section class="frame__image">
-            <div>
-                <p class="frame_image_text">
-                    Проект Двухкомнтанной квартиры в ЖК Лесной Пейзаж
-                </p>
+        <section class="reviews">
+            <div class="review-wrapper">
+                <h2 class="reviews-title">отзывы</h2>
+                <div class="reviews-row">
+                    <div class="col">
+                        <h2 class="reviews-project">Ксения, проект 65 кв.м.</h2>
+                        <p class="review-text">
+                            Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам с мужем было очень приятно с Вами работать! 
+                            Спасибо за Ваше умение правильно слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания!
+                            Мы даже не надеялись, что на 34 кв.м. кто-то сможет нам грамотно разместить все, что мы хотим и даже больше! <br>
+                            <br>
+                            Вам удалось это просто превосходно! 
+                            Нам лишь осталось воплотить красоту, которую Вы нам создали в жизнь и поделиться с Вами результатом!
+                        </p>    
+                    </div>
+                    <div class="col">
+                        <h2 class="reviews-project">Регина, проект 89 кв.м.</h2>
+                        <p class="review-text">
+                            Спасибо большое за такой классный проект! 
+                            Все стильно, круто, продумано! Очень приятно было с вами работать! 
+                            Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас ремонта. 
+                            Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям дизайнера!<br>
+                            <br>
+                            Хочется скорее реализовать проект и наслаждаться современной, функциональной и красивой квартирой!
+                            Будем рекомендовать Вас всем друзьям и знакомым!
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h2 class="reviews-project">Яна, проект 120 кв.м.</h2>
+                        <p class="review-text">
+                            Хотелось бы сказать большое спасибо за проделанную работу! 
+                            В задачу Марины входила разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять качество выполнения работы. 
+                            Но волнения были напрасны: все вопросы решались оперативно, всегда предлагалось несколько вариантов решения, а также предоставлялись комментарии, какой способ решения будет более подходящим <br>
+                            <br>
+                            В итоге проект был сдан в оговоренный срок, и мне просто не терпится приступить к его реализации! 
+                            Проект получился очень стильным и современным! 
+                            Буду рекомендовать Вас тем, кому еще предстоит это непростое дело - ремонт!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery-section">
+            <div class="gallery">
+                <div class="gallery__container-wrapper">
+                    <h2 class="gallery-wrapper-title">галерея проектов</h2>
+                </div>
+                <ul class="gallery__slides-wrapper">
+                    <li class="gallery__slide gallery__slide_active">
+                        <img class="gallery__img" src="/Metrika-one/resurces/GalleryPJ1.png" alt="ЖК Лесной Пейзаж">
+                        <div class="gallery_container">
+                            <h3 class="img__gallery-text">
+                                Проект  Двухкомнтаной квартиры 
+                                <br> 
+                                в ЖК Лесной Пейзаж
+                            </h3>
+                        </div>
+                    </li> 
+                    <li class="gallery__slide">
+                        <img class="gallery__img" src="/Metrika-one/resurces/GalleryPJ2.png" alt="ЖК Маяк">
+                        <div class="gallery_container">
+                            <h3 class="img__gallery-text">
+                                Проект гостиной в ЖК Маяк
+                            </h3>
+                        </div>   
+                    </li>
+                    <li class="gallery__slide">
+                        <img class="gallery__img" src="/Metrika-one/resurces/GalleryPJ3.png" alt="Визуализация кухни-гостиной">
+                        <div class="gallery_container">
+                            <h3 class="img__gallery-text">
+                                Визуализация кухни-гостиной 
+                                <br> 
+                                в частном доме
+                            </h3>
+                        </div>
+                    </li>
+                    <li class="gallery__slide">
+                        <img class="gallery__img" src="/Metrika-one/resurces/GalleryPJ4.png" alt="ЖК Северный Ветер">
+                        <div class="gallery_container">
+                            <h3 class="img__gallery-text">
+                                Проект кухни в скандинавском 
+                                <br> 
+                                стиле для ЖК Северный Ветер
+                            </h3>
+                        </div>
+                    </li>
+                </ul>
+                <div class="gallery__controls-wrapper">
+                        <div class="gallery__controls">
+                            <button class="gallery__control-prev"></button>
+                            <button class="gallery__control-next"></button>
+                        </div>
+                    </div>
             </div>
         </section>
     </main>
@@ -122,5 +221,6 @@
             </div>
         </div>
     </footer>
+    <script src="/Metrika-one/script/gallery.js"></script>
 </body>
-</html>
+</html> 
