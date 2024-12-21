@@ -75,11 +75,9 @@
 }
 
 .finish-conteiner {
-    width: 508px;
-    position: absolute;
-    top: 65px;
-    left: 440px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
 }
 
 .finish-link {
