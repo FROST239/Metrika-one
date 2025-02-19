@@ -59,12 +59,11 @@
 
 .order {
     margin: 106px 0 0 0;
+    width: 1150px;
     height: 153px;
-    padding-top: 56px;
     font-size: 30px;
-    line-height: 40px;
     letter-spacing: -0.03em;
-    text-decoration: none;
+    cursor: pointer;
     text-align: center;
     display: block;
     border: 5px solid  rgba(173, 24, 24, 1) ;

@@ -1,0 +1,86 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px ;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: black;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup_open {
+    opacity: 1;
+    visibility: visible;
+    transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.body_fixed {
+    overflow: hidden;
+}
+
+.popup__content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;;
+    margin: 0 319px 0 314px;
+    width: 777px;
+    height: 708px;
+    max-height: 100%;
+    overflow-y: scroll;
+    padding: 94px 74px 86px 59px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.popup__h {
+    font-size: 45px;
+    line-height: 61.47px;  
+    font-weight: bold;
+}
+
+.popup__title {
+    font-size: 18px;
+    line-height: 24.59px;
+}
+
+.btn__send {
+    font-size: 20px;
+    line-height: 27.32px;   
+    border-radius: 5px;
+    padding: 20px 40px 20px 40px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(173, 24, 24, 1);
+}
+
+.popup__text {
+    font-size: 13px;
+}
+
+.popup__close-btn {
+    background-image: url(/Metrika-one/resurces/radix-icons_cross.png);
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1199px) {
+    .popup__content {
+        margin: 0 92px 0 91px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+}

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/Metrika-one/styles/reset.css">
     <link rel="stylesheet" href="/Metrika-one/styles/style.css">
 </head>
-<body>
+<body> 
     <header>
         <div id="Metrik-logo" class="logo_selection">
             <a href="#Metrik-logo" class="link_logo">
@@ -74,8 +74,9 @@
                 </ul>
                 <a class="link_allproject" href="#Project">Смотреть все проекты</a>
             </div>    
-        </section> 
-        <section class="services-conteiner">
+        </section>  
+        
+        <section class="services-conteiner"> 
             <h2 id="Service" class="servicec-title">Услуги</h2>
             <ul class="service-box-wrapper">
                 <li class="service-list">
@@ -99,7 +100,19 @@
                     <p class="list_text">5% от стоимости</p>
                 </li>
             </ul>
-            <a class="order" href="#">Заказать услугу</a>
+            <button class="order js-btn">Заказать услугу</button>
+            <!-- POPup -->
+            <div class="popup js-popup">
+                <div class="popup__content js-popup__content">
+                    <h2 class="popup__h">Заказать услугу</h2>
+                    <p class="popup__title">Заполните форму, мы свяжемся с вами в течение суток
+                    </p>
+                    
+                    <button class="btn__send">Отправить</button>
+                    <div class="popup__close-btn js-popup__close-btn"></div>
+                </div>
+            </div>
+
         </section>
         <section class="reviews">
             <div class="review-wrapper">
@@ -220,7 +233,8 @@
                 <p class="Metrika">Студия дизайна интерьера Метрика</p>
             </div>
         </div>
-    </footer>
+    </footer> 
+    <script src="/Metrika-one/script/popup.js"></script>
     <script src="/Metrika-one/script/gallery.js"></script>
 </body>
 </html> 
