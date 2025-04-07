@@ -52,7 +52,7 @@
     height: 100%;
     display: flex;
     justify-content: end;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.9);
     opacity: 0;
     visibility: hidden;
     transform: all 0.3s ease;
@@ -73,6 +73,7 @@
 
 .logo-burger {
     background-image: url(/Metrika-one/resurces/logo_burger.png);
+    margin: 10px 0 60px 30px;
     width: 156px;
     height: 26px;
 }
@@ -80,12 +81,36 @@
 .burger-nav {
     display: flex;
     flex-direction: column;
+    margin-bottom: 60px;
     gap: 20px;
 }
 
 .burger-nav__link {
     display: block;
+    margin-left: 15px;
     padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.burger_contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    gap: 23px;
+}
+
+.burger_text {
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.burger_contact_link {
+    text-decoration: none;
+    color: #121212;
+    font-size: 20px;
+    letter-spacing: -3%;
 }
 
 @media (max-width: 767px) {
@@ -96,7 +121,7 @@
 
     .burger-btn {
         position: absolute;
-        right: 10%;
+        right: 40px;
         z-index: 100;
         display: block; 
         width: 50px;
@@ -108,8 +133,12 @@
     
     .burger-btn_open {
         background-image: url(/Metrika-one/resurces/icons_close_burger.png);
+        position: absolute;
+        right: -25%;
+        top: -45%;
         width: 34px;
         height: 34px;
+        
     }
 
 
