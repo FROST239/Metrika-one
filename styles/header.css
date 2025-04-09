@@ -134,8 +134,8 @@
     .burger-btn_open {
         background-image: url(/Metrika-one/resurces/icons_close_burger.png);
         position: absolute;
-        right: -25%;
-        top: -45%;
+        right: 5%;
+        top: 5%;
         width: 34px;
         height: 34px;
         
