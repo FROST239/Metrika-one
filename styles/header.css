@@ -3,7 +3,7 @@
 }
 
 .header {
-    padding: 31px 12px 61px 12px;
+    padding: 31px 0 61px 12px;
 }
 
 .logo_section {
@@ -124,7 +124,7 @@
         right: 40px;
         z-index: 100;
         display: block; 
-        width: 50px;
+        width: 60px;
         height: 25px;
         background-image: url(/Metrika-one/resurces/burger-btn.png);
         background-repeat: no-repeat;
