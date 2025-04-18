@@ -3,7 +3,7 @@
 }
 
 .header {
-    padding: 31px 0 61px 12px;
+    padding: 31px 150px 61px 125px;
 }
 
 .logo_section {
@@ -111,6 +111,42 @@
     color: #121212;
     font-size: 20px;
     letter-spacing: -3%;
+}
+
+@media (max-width: 1199px) {
+    .header {
+        padding: 32px 16px 74px 15px;
+    }
+
+    .nav {
+        display: none;
+    }
+    .burger-btn {
+        position: absolute;
+        right: 1%;
+        z-index: 100;
+        display: block; 
+        width: 60px;
+        height: 25px;
+        background-image: url(/Metrika-one/resurces/burger-btn.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .burger-btn_open {
+        background-image: url(/Metrika-one/resurces/icons_close_burger.png);
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        width: 34px;
+        height: 34px;
+        
+    }
+
+    .burger__content {
+        z-index: 100;
+    }
+
 }
 
 @media (max-width: 767px) {

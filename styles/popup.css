@@ -107,5 +107,9 @@
 }
 
 @media (max-width: 767px) {
-
+    .popup__content {
+        margin: 0 7px 0 7px;
+        width: 360px;
+        height: 611px;
+    }
 }
