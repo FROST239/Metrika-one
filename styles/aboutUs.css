@@ -64,14 +64,15 @@
 
 @media (max-width: 767px) {
 
-    .info_us {
+    .title_us {
+        margin: 120px 0 150px 0;
         width: 100%;
         height: 420px;
     }
 
     .text_description {
         width: 100%;
-        height: 300px;
+        height: auto;
         font-size: 22px;
         margin-bottom: 30px;
     }

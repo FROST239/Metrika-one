@@ -118,25 +118,62 @@
 
     .contacts {
         justify-content: left;
-        gap: 115px;
+        gap: 80px;
     }
 
     .number {
         font-size: 45px;
         line-height: 60px;
-        letter-spacing: -3%;
+        margin-bottom: 20px;
     }
 
     .mail {
         font-size: 45px;
         line-height: 60px;
-        letter-spacing: -3%;
     }
 
 }
 
 @media (max-width: 767px) {
     
+    .title_contacts {
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: -3%;
+        text-transform: uppercase;
+    }
 
+    .contact {
+        padding: 80px 17px 80px;
+        margin: 0 auto;
+        height: 387px;
+        position: static;
+    }
 
+    .contacts {
+        display: block;
+    }
+
+    .number {
+        font-size: 35px;
+        line-height: 45.62px;
+        letter-spacing: -3%;
+    }
+
+    .mail {
+        font-size: 35px;
+        line-height: 45.62px;
+        letter-spacing: -3%;
+    }
+
+    .finish-link {
+        font-size: 12px;
+        line-height: 100%;
+        text-transform: uppercase;
+    }
+
+    .Metrika-finish {
+        font-size: 13px;
+        line-height: 100%;
+    }
 }
