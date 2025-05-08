@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 1199px) {
-    .titile_project {
+    .title_project {
         width: 100%;
     }
 
@@ -105,6 +105,7 @@
 
 @media (max-width: 767px) {
     .title-project {
+        margin-top: 50px;
         font-size: 14px;
         line-height: 19.12px;
     }
