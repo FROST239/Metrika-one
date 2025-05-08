@@ -14,7 +14,8 @@
 }
 
 .title-image {
-    width: 1150px;
+    z-index: -1;
+    width: 98%;
     height: 500px;
     position: relative;
     background-image: url(/Metrika-one/resurces/Rectangle\ 1.png);
@@ -39,12 +40,12 @@
     .container_intro {
         max-width: 100%;
         padding-left: 17px;
-        padding-right: 15px;
+        padding-right: 5px;
     }
 
     .text-title {
         padding-bottom: 30px;
-        width: 802px;
+        width: 100%;
         font-size: 50px;
     }
 
