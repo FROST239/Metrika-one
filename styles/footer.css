@@ -167,6 +167,7 @@
     }
 
     .finish-link {
+        margin-right: 30px;
         font-size: 12px;
         line-height: 100%;
         text-transform: uppercase;

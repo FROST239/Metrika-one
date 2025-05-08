@@ -78,6 +78,8 @@
     .text-title {
         width: 100%;
         padding: 0 13px 25px 0;
+        font-size: 30px;
+        line-height: 31.62px;
     }
 
     .title-image {
