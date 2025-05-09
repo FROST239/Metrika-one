@@ -36,12 +36,12 @@
         <div class="burger__content js-burger__content">
             <div class="logo-burger"></div>
             <nav class="burger-nav">
-                <a href="#About_us" class="burger-nav__link">О НАС</a>
+                <a href="#About_us" class="burger-nav__link ">О НАС</a>
                 <a href="#Project" class="burger-nav__link">ПРОЕКТЫ</a>
                 <a href="#Service" class="burger-nav__link">УСЛУГИ</a>
                 <a href="#Address" class="burger-nav__link">КОНТАКТЫ</a>
             </nav>
-            <nav class="burger_contact">
+            <nav class="burger_contact js-burger__content">
                 <p class="burger_text" >для связи:</p>
                 <a class="burger_contact_link" href="tel:+7 935  895-45-35">+7 935  895-45-35</a>
                 <a class="burger_contact_link" href="mailto:hello@mail.com">hello@mail.com</a>
@@ -79,7 +79,7 @@
                     до каждой
                     детали — нацелены на результат.
                 </p>
-                <a class="btn__link" href="#Metrik-logo">Посмотреть услуги</a>
+                <a class="btn__link" href="#Service">Посмотреть услуги</a>
             </div>    
         </section>
 
@@ -145,18 +145,21 @@
                         <input 
                             class="input"
                             type="text"
+                            name="name"
                             placeholder="Имя">
                         <input 
                             class="input"
-                            type="text"
+                            type="email"
+                            name="email"
                             placeholder="Электронная почта">
                         <input 
                             class="input"
-                            type="text"
+                            type="tel"
+                            name="phone"
                             placeholder="Номер телефона">
                     </div>
                     
-                    <button class="btn__send">Отправить</button>
+                    <button class="btn__send js-popup__close-btn">Отправить</button>
                     <div class="popup__close-btn js-popup__close-btn"></div>
                 </div>
             </div>

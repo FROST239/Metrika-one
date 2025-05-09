@@ -64,7 +64,7 @@
 }
 
 .burger__content {
-    width:72%;
+    width: 30%;
     height: 100%;
     padding: 15px;
     padding-top: 100px;
@@ -114,6 +114,10 @@
 }
 
 @media (max-width: 1199px) {
+    .burger {
+        z-index: 102;
+    }
+
     .header {
         padding: 32px 16px 74px 15px;
     }
@@ -124,7 +128,7 @@
     .burger-btn {
         position: absolute;
         right: 1%;
-        z-index: 100;
+        z-index: 103;
         display: block; 
         width: 60px;
         height: 25px;
@@ -136,11 +140,11 @@
     .burger-btn_open {
         background-image: url(/Metrika-one/resurces/icons_close_burger.png);
         position: absolute;
-        right: 5%;
+        right: 0%;
         top: 5%;
         width: 34px;
         height: 34px;
-        
+        z-index: 103;
     }
 
     .burger__content {
@@ -153,6 +157,10 @@
 
     .nav {
         display: none;
+    }
+
+    .burger__content {
+        width: 40%;
     }
 
     .burger-btn {
@@ -170,11 +178,11 @@
     .burger-btn_open {
         background-image: url(/Metrika-one/resurces/icons_close_burger.png);
         position: absolute;
-        right: 5%;
+        right: 0%;
         top: 5%;
         width: 34px;
         height: 34px;
-        
+        z-index: 103;
     }
 
 
