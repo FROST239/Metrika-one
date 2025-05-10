@@ -57,7 +57,7 @@
     background-color: rgba(0, 0, 0, 0.9);
     opacity: 0;
     visibility: hidden;
-    transition: transform 1s linear;
+    transition: transform 0.5s linear;
     transform: translate(100%);
 }
 
